@@ -10,39 +10,44 @@
   <div class="calculator">
     <input type="text" id="display" readonly placeholder="0">
     <div class="buttons">
+      <!-- Fila 1 -->
       <button class="btn func" onclick="clearDisplay()">C</button>
       <button class="btn func" onclick="deleteLast()">DEL</button>
       <button class="btn func" onclick="appendValue('(')">(</button>
       <button class="btn func" onclick="appendValue(')')">)</button>
       <button class="btn operator" onclick="appendValue('/')">÷</button>
 
+      <!-- Fila 2 -->
       <button class="btn func" onclick="calcFunction('sin')">sin</button>
       <button class="btn func" onclick="calcFunction('cos')">cos</button>
       <button class="btn func" onclick="calcFunction('tan')">tan</button>
       <button class="btn func" onclick="calcFunction('sqrt')">√</button>
       <button class="btn operator" onclick="appendValue('*')">×</button>
 
+      <!-- Fila 3 -->
       <button class="btn func" onclick="calcFunction('log')">log</button>
       <button class="btn func" onclick="calcFunction('ln')">ln</button>
       <button class="btn func" onclick="appendValue('**')">xʸ</button>
       <button class="btn func" onclick="appendValue('3.14159265')">π</button>
       <button class="btn operator" onclick="appendValue('-')">-</button>
 
+      <!-- Fila 4 -->
       <button class="btn" onclick="appendValue('7')">7</button>
       <button class="btn" onclick="appendValue('8')">8</button>
       <button class="btn" onclick="appendValue('9')">9</button>
       <button class="btn operator" onclick="appendValue('+')">+</button>
       <button class="btn func" onclick="calcFunction('exp')">exp</button>
 
+      <!-- Fila 5 -->
       <button class="btn" onclick="appendValue('4')">4</button>
       <button class="btn" onclick="appendValue('5')">5</button>
       <button class="btn" onclick="appendValue('6')">6</button>
-
       <button class="btn" onclick="appendValue('1')">1</button>
       <button class="btn" onclick="appendValue('2')">2</button>
+
+      <!-- Fila 6 -->
       <button class="btn" onclick="appendValue('3')">3</button>
       <button class="btn equal" onclick="calculate()">=</button>
-
       <button class="btn zero" onclick="appendValue('0')">0</button>
       <button class="btn" onclick="appendValue('.')">.</button>
     </div>
