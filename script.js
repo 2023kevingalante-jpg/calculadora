@@ -27,13 +27,13 @@ function calcFunction(type) {
 
   switch (type) {
     case 'sin':
-      display.value = Math.sin(val * (Math.PI / 180)); // Grados
+      display.value = Math.sin(val * (Math.PI / 180));
       break;
     case 'cos':
-      display.value = Math.cos(val * (Math.PI / 180)); // Grados
+      display.value = Math.cos(val * (Math.PI / 180));
       break;
     case 'tan':
-      display.value = Math.tan(val * (Math.PI / 180)); // Grados
+      display.value = Math.tan(val * (Math.PI / 180));
       break;
     case 'sqrt':
       display.value = Math.sqrt(val);
